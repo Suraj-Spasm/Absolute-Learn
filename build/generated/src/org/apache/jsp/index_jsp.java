@@ -1,0 +1,272 @@
+package org.apache.jsp;
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+import javax.servlet.jsp.*;
+
+public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
+    implements org.apache.jasper.runtime.JspSourceDependent {
+
+  private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
+
+  private static java.util.List<String> _jspx_dependants;
+
+  private org.glassfish.jsp.api.ResourceInjector _jspx_resourceInjector;
+
+  public java.util.List<String> getDependants() {
+    return _jspx_dependants;
+  }
+
+  public void _jspService(HttpServletRequest request, HttpServletResponse response)
+        throws java.io.IOException, ServletException {
+
+    PageContext pageContext = null;
+    HttpSession session = null;
+    ServletContext application = null;
+    ServletConfig config = null;
+    JspWriter out = null;
+    Object page = this;
+    JspWriter _jspx_out = null;
+    PageContext _jspx_page_context = null;
+
+    try {
+      response.setContentType("text/html;charset=UTF-8");
+      pageContext = _jspxFactory.getPageContext(this, request, response,
+      			null, true, 8192, true);
+      _jspx_page_context = pageContext;
+      application = pageContext.getServletContext();
+      config = pageContext.getServletConfig();
+      session = pageContext.getSession();
+      out = pageContext.getOut();
+      _jspx_out = out;
+      _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
+
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("<!DOCTYPE html>\n");
+      out.write("<html lang=\"en\">\n");
+      out.write("    <head>\n");
+      out.write("        <meta charset=\"UTF-8\">\n");
+      out.write("        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n");
+      out.write("        <title>Absolute Learn LMS</title>\n");
+      out.write("\n");
+      out.write("        <link rel=\"stylesheet\" href=\"contents/style.css\">\n");
+      out.write("        <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css\"/>\n");
+      out.write("        <script src=\"https://code.jquery.com/jquery-3.5.1.min.js\"></script>\n");
+      out.write("        <script src=\"https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js\"></script>\n");
+      out.write("        <script src=\"https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js\"></script>\n");
+      out.write("        <script src=\"https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js\"></script>\n");
+      out.write("        <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css\"/>\n");
+      out.write("\n");
+      out.write("    </head>\n");
+      out.write("    <body>\n");
+      out.write("        <div class=\"scroll-up-btn\">\n");
+      out.write("            <i class=\"fas fa-angle-up\"></i>\n");
+      out.write("        </div>\n");
+      out.write("        <nav class=\"navbar\">\n");
+      out.write("            <div class=\"max-width\">\n");
+      out.write("                <div class=\"logo\"><a href=\"logo.jpeg\">Absolute<span>learn</span></a></div>\n");
+      out.write("                <ul class=\"menu\">\n");
+      out.write("                    <li><a href=\"#home\" class=\"menu-btn\">Home</a></li>\n");
+      out.write("                    <li><a href=\"#about\" class=\"menu-btn\">About Us</a></li>\n");
+      out.write("                    <li><a href=\"#services\" class=\"menu-btn\">Services</a></li>\n");
+      out.write("                    <li><a href=\"#skills\" class=\"menu-btn\">Vision & Mission</a></li>\n");
+      out.write("                    <li><a href=\"#teams\" class=\"menu-btn\">Mentors</a></li>\n");
+      out.write("                    <li><a href=\"#contact\" class=\"menu-btn\">Contact us</a></li>\n");
+      out.write("                </ul>\n");
+      out.write("                <div class=\"menu-btn\">\n");
+      out.write("                    <i class=\"fas fa-bars\"></i>\n");
+      out.write("                </div>\n");
+      out.write("            </div>\n");
+      out.write("        </nav>\n");
+      out.write("\n");
+      out.write("        <!-- home section start -->\n");
+      out.write("        <section class=\"home\" id=\"home\">\n");
+      out.write("            <div class=\"max-width\">\n");
+      out.write("                <div class=\"row\">\n");
+      out.write("                    <div class=\"home-content\">\n");
+      out.write("                        <div class=\"text-1\">The ultimate LMS customised for educators</div>\n");
+      out.write("                        <div class=\"text-2\">Absolute Learn</div>\n");
+      out.write("                        <div class=\"text-3\">join us <span class=\"typing\"></span></div>\n");
+      out.write("                        <a href=\"loginPage.jsp\">Login Now</a>\n");
+      out.write("                    </div>\n");
+      out.write("                </div>\n");
+      out.write("            </div>\n");
+      out.write("        </section>\n");
+      out.write("\n");
+      out.write("        <!-- about section start -->\n");
+      out.write("        <section class=\"about\" id=\"about\">\n");
+      out.write("            <div class=\"max-width\">\n");
+      out.write("                <h2 class=\"title\">About us</h2>\n");
+      out.write("                <div class=\"about-content\">\n");
+      out.write("                    <div class=\"column left\">\n");
+      out.write("                        <img src=\"contents/images/profile.jpeg\" alt=\"\">\n");
+      out.write("                    </div>\n");
+      out.write("                    <div class=\"column right\">\n");
+      out.write("                        <div class=\"text\"> WHY ABSOLUTE LEARN? <span class=\"typing-2\"></span></div>\n");
+      out.write("                        <p>Absolute Learn aims to fulfill the respective needs of all the members in an educational ecosystem. The state-of-the-art LMS organises content in one location for the comfort of educators. This is a robust software for school administration to lead in the aspects of formal documentation, performance tracking and strengthening the process of E-learning.</p>\n");
+      out.write("                        <div class=\"column right\">\n");
+      out.write("                            <div class=\"text\">WHO CAN GET BENEFIT FROM ABSOLUTE LEARN? <span class=\"typing-2\"></span></div>\n");
+      out.write("                            <P>Every individual sharing an interest in the field of education can leverage the innovative E-learning experience of Absolute Learn. They can be institutes, teachers and the students.</P>\n");
+      out.write("                            <a href=\"loginPage.html\">Start your journey with us</a>\n");
+      out.write("                        </div>\n");
+      out.write("                    </div>\n");
+      out.write("                </div>\n");
+      out.write("            </div> \n");
+      out.write("            <!-- services section start -->\n");
+      out.write("            <section class=\"services\" id=\"services\">\n");
+      out.write("                <div class=\"max-width\">\n");
+      out.write("                    <h2 class=\"title\">Our services</h2>\n");
+      out.write("                    <div class=\"serv-content\">\n");
+      out.write("                        <div class=\"card\">\n");
+      out.write("                            <div class=\"box\">\n");
+      out.write("                                <i class=\"fas fa-paint-brush\"></i>\n");
+      out.write("                                <div class=\"text\">Automated Performance Assessment</div>\n");
+      out.write("                                <p>Absolute Learn makes it easy to assess the performance of the classes and adjudge prominent changes that can be made.</p>\n");
+      out.write("                            </div>\n");
+      out.write("                        </div>\n");
+      out.write("                        <div class=\"card\">\n");
+      out.write("                            <div class=\"box\">\n");
+      out.write("                                <i class=\"fas fa-chart-line\"></i>\n");
+      out.write("                                <div class=\"text\">Virtual Classroom</div>\n");
+      out.write("                                <p>A disciplined atmosphere supports intuitive education. Teach your students in a tech-enabled, seamlessly interactive virtual classroom.</p>\n");
+      out.write("                            </div>\n");
+      out.write("                        </div>\n");
+      out.write("                        <div class=\"card\">\n");
+      out.write("                            <div class=\"box\">\n");
+      out.write("                                <i class=\"fas fa-code\"></i>\n");
+      out.write("                                <div class=\"text\">Live Lecture & Discussion</div>\n");
+      out.write("                                <p>Feel the essence of sharing knowledge live over an Internet-enabled platform. Effective discussion engages the students to earn lessons with Absolute Learn.</p>\n");
+      out.write("                            </div>\n");
+      out.write("                        </div>\n");
+      out.write("                    </div>\n");
+      out.write("                </div>\n");
+      out.write("\n");
+      out.write("            </section>\n");
+      out.write("\n");
+      out.write("            <!-- skills section start -->\n");
+      out.write("            <section class=\"skills\" id=\"skills\">\n");
+      out.write("                <div class=\"max-width\">\n");
+      out.write("                    <h2 class=\"title\">Our Vision & Mission </h2>\n");
+      out.write("                    <div class=\"skills-content\">\n");
+      out.write("                        <div class=\"center\">\n");
+      out.write("                            <h4 class=\"text\" class=\"column center\">Our Vision</h4><center><p>\n");
+      out.write("                                    E-Learning alignment contributes to: \"inclusive learning environment\", \"innovative and outstanding teaching\", \"develop skills for life\".</p></center><br>\n");
+      out.write("                            <h4 class=\"text\" class=\"column center\">Our Mision</h4><p>\n");
+      out.write("                                    Creating community and knowledge around quality online, blended, and digital learning while driving innovation.</p>\n");
+      out.write("\n");
+      out.write("                        </div>        \n");
+      out.write("                        </section>\n");
+      out.write("\n");
+      out.write("                        <!-- teams section start -->\n");
+      out.write("                        <section class=\"teams\" id=\"teams\">\n");
+      out.write("                            <div class=\"max-width\">\n");
+      out.write("                                <h2 class=\"title\">Our Mentors</h2>\n");
+      out.write("                                <div class=\"carousel owl-carousel\">\n");
+      out.write("                                    <div class=\"card\">\n");
+      out.write("                                        <div class=\"box\">\n");
+      out.write("                                            <img src=\"contents/images/ansarisir.jpeg\" alt=\"\">\n");
+      out.write("                                            <div class=\"text\">Prof Ansari Nasir<br> Co-ordinator B.Sc(IT)</div>\n");
+      out.write("                                            <p>Getting trained under your supervision is an incredible experience. Thank you Sir for all your support !</p>\n");
+      out.write("                                        </div>\n");
+      out.write("                                    </div>\n");
+      out.write("                                     <div class=\"card\">\n");
+      out.write("                                        <div class=\"box\">\n");
+      out.write("                                            <img src=\"contents/images/sheetalmaam.jpeg\" alt=\"\">\n");
+      out.write("                                            <div class=\"text\">Prof Sheetal Mathew kadantot</div>\n");
+      out.write("                                            <p>Your supervision has never failed us to bring out the best from us, and amaze the people. All the credit of our success goes to you. Thanks a lot Maam!</p>\n");
+      out.write("                                        </div>\n");
+      out.write("                                    </div>\n");
+      out.write("                                    <div class=\"card\">\n");
+      out.write("                                        <div class=\"box\">\n");
+      out.write("                                            <img src=\"contents/images/arunsir.jpeg\" alt=\"\">\n");
+      out.write("                                            <div class=\"text\">Prof Arun Maurya</div>\n");
+      out.write("                                            <p>Mentoring is not only about training on or off the field. Guiding someone to choose the right path, differentiate between wrong and right is also significant. Thank you for mentoring us so well.</p>\n");
+      out.write("                                        </div>\n");
+      out.write("                                    </div>\n");
+      out.write("                                </div>\n");
+      out.write("                            </div>\n");
+      out.write("                        </section>\n");
+      out.write("\n");
+      out.write("                        <!-- contact section start -->\n");
+      out.write("                        <section class=\"contact\" id=\"contact\">\n");
+      out.write("                            <div class=\"max-width\">\n");
+      out.write("                                <h2 class=\"title\">Contact us</h2>\n");
+      out.write("                                <div class=\"contact-content\">\n");
+      out.write("                                    <div class=\"column left\">\n");
+      out.write("                                        <div class=\"text\">Get in Touch with us </div>\n");
+      out.write("                                        <p></p>\n");
+      out.write("                                        <div class=\"icons\">\n");
+      out.write("                                            <div class=\"row\">\n");
+      out.write("                                                <i class=\"fas fa-user\"></i>\n");
+      out.write("                                                <div class=\"info\">\n");
+      out.write("                                                    <div class=\"head\">Name</div>\n");
+      out.write("                                                    <div class=\"sub-title\">Absolute Learn</div>\n");
+      out.write("                                                </div>\n");
+      out.write("                                            </div>\n");
+      out.write("                                            <div class=\"row\">\n");
+      out.write("                                                <i class=\"fas fa-map-marker-alt\"></i>\n");
+      out.write("                                                <div class=\"info\">\n");
+      out.write("                                                    <div class=\"head\">Address</div>\n");
+      out.write("                                                    <div class=\"sub-title\">Mumbai, Maharastra</div>\n");
+      out.write("                                                </div>\n");
+      out.write("                                            </div>\n");
+      out.write("                                            <div class=\"row\">\n");
+      out.write("                                                <i class=\"fas fa-envelope\"></i>\n");
+      out.write("                                                <div class=\"info\">\n");
+      out.write("                                                    <div class=\"head\">Email </div>\n");
+      out.write("                                                    <div class=\"sub-title\">absolutelearn1@gmail.com</div>\n");
+      out.write("                                                </div>\n");
+      out.write("                                            </div>\n");
+      out.write("                                        </div>\n");
+      out.write("                                    </div>\n");
+      out.write("                                    <div class=\"column right\">\n");
+      out.write("                                        <div class=\"text\">Message me</div>\n");
+      out.write("                                        <form class=\"contact-form\" action=\"#\" method=\"POST\">\n");
+      out.write("                                            <div class=\"fields\">\n");
+      out.write("                                                <div class=\"field name\">\n");
+      out.write("                                                    <input type=\"text\" class=\"fullname\" placeholder=\"Name\">\n");
+      out.write("                                                </div>\n");
+      out.write("                                                <div class=\"field email\">\n");
+      out.write("                                                    <input type=\"text\" class=\"email-input\" placeholder=\"Email\">\n");
+      out.write("                                                </div>\n");
+      out.write("                                            </div>\n");
+      out.write("                                            <div class=\"field\">\n");
+      out.write("                                                <input type=\"text\" class=\"subject\" placeholder=\"Subject\">\n");
+      out.write("                                            </div>\n");
+      out.write("                                            <div class=\"field textarea\">\n");
+      out.write("                                                <textarea class=\"message\" cols=\"30\" rows=\"20\" placeholder=\"Message..\"></textarea>\n");
+      out.write("                                            </div>\n");
+      out.write("                                            <div class=\"button-area\">\n");
+      out.write("                                                <a href=\"https://mail.google.com/mail/u/0/#inbox\">\n");
+      out.write("                                                <button class=\"send-msg\" type=\"submit\" name=\"send\">Send message</button></a>\n");
+      out.write("                                                \n");
+      out.write("                                            </div>\n");
+      out.write("                                        </form>\n");
+      out.write("                                    </div>\n");
+      out.write("                                </div>\n");
+      out.write("                            </div>\n");
+      out.write("                        </section>\n");
+      out.write("\n");
+      out.write("                        <!-- footer section start -->\n");
+      out.write("                        <footer>\n");
+      out.write("                            <span>Created By Niraj Jain and Suraj soni<a href=\"https://niraj04.medium.com/\">AbsoluteLearn</a><span class=\"far fa-copyright\"></span> 2020 All rights reserved.</span>\n");
+      out.write("                        </footer>\n");
+      out.write("                        <script src=\"contents/script.js\"></script>\n");
+      out.write("                        </body>\n");
+      out.write("                        </html>\n");
+      out.write("\n");
+    } catch (Throwable t) {
+      if (!(t instanceof SkipPageException)){
+        out = _jspx_out;
+        if (out != null && out.getBufferSize() != 0)
+          out.clearBuffer();
+        if (_jspx_page_context != null) _jspx_page_context.handlePageException(t);
+        else throw new ServletException(t);
+      }
+    } finally {
+      _jspxFactory.releasePageContext(_jspx_page_context);
+    }
+  }
+}
